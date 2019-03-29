@@ -6,7 +6,9 @@ class Hash
         my_array << key
       end
 
+
     end# code goes here
+    my_array
   end
-  
+
 end
