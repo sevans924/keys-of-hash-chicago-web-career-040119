@@ -8,5 +8,5 @@ class Hash
 
     end# code goes here
   end
-  my_array
+  
 end
