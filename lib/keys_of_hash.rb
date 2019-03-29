@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arguments)
     map do |key, value|
       if arguments.include?(value)
-        key : nil 
+        key 
       end
 
     end# code goes here
