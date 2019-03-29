@@ -1,8 +1,9 @@
 class Hash
   def keys_of(*arguments)
-    map do |key, value|
+    my_array = []
+    each do |key, value|
       if arguments == value
-        key
+        my_array << key
       end
 
     end# code goes here
